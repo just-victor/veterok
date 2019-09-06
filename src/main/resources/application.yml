@@ -1,0 +1,18 @@
+server:
+     port: ${API_SERVER_PORT:8880}
+spring:
+  datasource:
+    driverClass: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/wind"
+    username: "postgres"
+    password: "postgres"
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/web-app/
+    suffix: .html
