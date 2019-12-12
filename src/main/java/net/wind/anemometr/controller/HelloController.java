@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String status() {
-        return "I'm alive! 1";
+        return "I'm alive!";
     }
 
 }
