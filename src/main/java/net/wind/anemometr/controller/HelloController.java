@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String status() {
-        return "I'm alive!";
+        return "I'm alive! 1";
     }
 
 }
