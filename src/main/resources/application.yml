@@ -16,3 +16,10 @@ spring:
     enabled: true
     prefix: classpath:/web-app/
     suffix: .html
+
+logging:
+  file: "./logs/veterok-api.log"
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
+
+

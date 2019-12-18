@@ -20,3 +20,4 @@ target/
 
 # === Dev temp files ===
 _dev-process/vault/certs-gen/
+/logs/
